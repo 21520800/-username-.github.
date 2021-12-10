@@ -13,9 +13,7 @@ Syntax highlighted code block
 
 # Welcome to my personal page
 ## Header 2
-### Header 3
-
-- Bulleted
+### Header 3- Bulleted
 - List
 
 1. Numbered
