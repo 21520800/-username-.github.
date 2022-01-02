@@ -31,6 +31,7 @@ void Text(wchar_t*& pBuffer, wstring content, int nPosX, int nPosY)
 	for (int i = 0; i < content.length(); i++, nPosX++)
 	{
 		pBuffer[nPosY * nScreenWidth + nPosX] = content.at(i);
+	
 	}
 }
 bool CheckPiece(int*& pMatrix, int nTetromino, int nRotation, int nPosX, int nPosY)
